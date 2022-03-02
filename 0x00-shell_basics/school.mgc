@@ -1,2 +1,4 @@
 #!/bin/bash
-$ file --mime-type -m School.mgc i
+$ file --mime-type -m School.mgc*
+$ file -C -m .mgc
+$ file -i -m .mgc *
